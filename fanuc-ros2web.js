@@ -66,3 +66,22 @@ function ArrayEqual (array1, array2) {
     })
 ))
 }
+process.on('SIGINT', function () {
+  console.log('Caught interrupt signal, shutdown sequence started...')
+
+  request.get({ url: 'http://' + karel +
+  '/KAREL/webabort'
+  }, function optionalCallback (err, httpResponse, body) {
+    if (err) {
+      return console.error('Error stopping webmotion', err)
+    } else {
+      console.log('Webmotion application stopped! ')
+    }
+  })
+  setTimeout(bye, 5000)
+})
+
+function bye () {
+  console.log('Shouting down.')
+  process.exit()
+}
