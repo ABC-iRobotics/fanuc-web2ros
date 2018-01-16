@@ -13,7 +13,8 @@
   },
   "dependencies": {
     "roslib": "0.18.0",
-	"ws": "1.1.4"
+  "ws": "1.1.4",
+  "package": "2.83.0"
   },
   "keywords": [
     "node",
