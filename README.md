@@ -49,3 +49,8 @@ http://wiki.ros.org/rosbridge_suite
 ## What does it do?
 
 The program subscribe to the '/joint_states' topic of ROS, and when it changes it sends the states to the fanuc-webcontrol using a GET method.
+
+## Script file
+  node ./fanuc-web2ros.sh
+  Launch both fanuc-web2ros and fanuc-ros2web on ip 192.168.1.101
+
