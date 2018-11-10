@@ -5,16 +5,16 @@
   "main": "fanuc-ros2web.js",
   "scripts": {
     "test": "node fanuc-web2ros.js -rosbridge 127.0.0.1:9090 -karel 192.168.1.100",
-    "start": "node ./fanuc-web2ros.sh"
+    "start": "node fanuc-web2ros.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ABC-iRobotics/fanuc-web2ros.git"
   },
   "dependencies": {
-    "roslib": "0.18.0",
-    "ws": "1.1.4",
-    "request": "2.83.0"
+    "request": "^2.88.0",
+    "roslib": "^0.20.0",
+    "ws": "1.1.4"
   },
   "keywords": [
     "node",
