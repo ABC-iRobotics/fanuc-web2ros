@@ -33,6 +33,9 @@ A gateway between ROS and fanuc-webcontrol implemented as node.js module
 Fanuc-webcontrol:
 https://github.com/ABC-iRobotics/fanuc-webcontrol/blob/master/API.md
 
+## Acknowledgement
+We acknowledge the financial support of this work by the Hungarian State and the European Union under the  EFOP-3.6.1-16-2016-00010 project.
+
 There must be a running rosbridge server on ROS in orther to communicate
 http://wiki.ros.org/rosbridge_suite
 
